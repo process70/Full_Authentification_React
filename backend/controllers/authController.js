@@ -113,4 +113,14 @@ const logout = (req, res) => {
     console.log('logging out')
 }
 
-module.exports = {register, login, logout, refresh}
+const getAllUsers = asyncHandler(async (req, res) => {
+    console.log(req.url+'==========> '+req.url)
+    const users = await User.find()
+    if(!users || users.length === 0) 
+        return res.status(204).json({message: "no users found"})
+    console.log({users})
+
+    res.status(200).json(users)
+})
+
+module.exports = {register, login, logout, refresh, getAllUsers}
