@@ -15,7 +15,6 @@ const PersistLogin = () => {
       let isMounted = true;
     const verifyRefreshToken = async () => {
       try {
-        console.log("getting a new access token")
         await refresh();
       } catch (err) {
         console.error(err);
