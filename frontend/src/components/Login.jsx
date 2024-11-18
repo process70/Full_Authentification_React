@@ -45,7 +45,6 @@ const Login = () => {
                     headers: {'Content-Type' : 'application/json'},
                     withCredentials: true
                 });
-                console.log({ user, roles: response?.data?.roles, accessToken: response?.data?.accessToken })
                 setAuth({ user, pwd, roles: response?.data?.roles, accessToken: response?.data?.accessToken })
                 // setUser('');
                 resetUser()
