@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE_URL = 'http://localhost:5000/auth';
+const BASE_URL = 'https://full-authentification-react.onrender.com/auth';
 
 export default axios.create({
     baseURL: BASE_URL
