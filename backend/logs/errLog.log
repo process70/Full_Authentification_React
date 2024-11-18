@@ -1,0 +1,137 @@
+2024-06-26	11:24:41	4e8007b3-bf69-44b7-a32f-0296091dacd3	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+    at E:\FullStack Projects\TechNote System\backend\controllers\userController.js:17:12
+    at asyncUtilWrap (E:\FullStack Projects\TechNote System\backend\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:175:3)
+POST	/users/createUser	undefined
+2024-06-26	11:25:49	cc37abd7-4073-44aa-8caf-d54f7f8a1909	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+    at E:\FullStack Projects\TechNote System\backend\controllers\userController.js:17:13
+    at asyncUtilWrap (E:\FullStack Projects\TechNote System\backend\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\FullStack Projects\TechNote System\backend\node_modules\express\lib\router\index.js:175:3)
+POST	/users/createUser	undefined
+2024-06-26	11:28:28	4f6c8e7a-5c29-480e-9625-0f9e612115d5	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	11:29:09	a7e0453f-ed08-49ad-b8d2-3a6a7877a0a0	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	11:29:13	d3ef0cff-e787-4172-8211-3edfbde98e87	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	11:30:57	b80ed83f-3563-4882-a00b-07a7a7c3865c	TypeError: Cannot read properties of undefined (reading 'username')	POST	/users/createUser	undefined
+2024-06-26	11:31:25	a6d82111-dfa9-465d-892e-bc86b71891df	TypeError: Cannot destructure property 'password' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	11:32:55	f8b10442-bc79-4981-be94-767cc5ba129d	TypeError: Cannot destructure property 'password' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	11:34:43	e9bce8d8-218b-46ff-9518-bcde6c4a2a10	TypeError: Cannot destructure property 'password' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	11:35:09	8dacc2f4-b8f0-4677-a2a8-aeb6989d6569	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	12:05:14	98d9726b-2c8f-4d9b-9969-faf6109e5c6d	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	12:58:10	102308a8-072e-4c46-9fec-af509d16549f	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	13:00:20	e45689f1-e823-49c8-bf98-6946406c09ff	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.	POST	/users/createUser	undefined
+2024-06-26	13:14:57	3eaf7a2c-fd40-4419-ad31-446da1d185ac	ObjectParameterError: Parameter "filter" to findOne() must be an object, got "qdqsdsqqs" (type string)	POST	/users/createUser	undefined
+2024-06-26	13:15:29	48df2378-4f42-4a95-b6bc-90ebda9805cf	TypeError: newUser.create is not a function	POST	/users/createUser	undefined
+2024-06-26	13:24:14	bdb4b551-e726-4a19-88cd-d367ee7b7e0b	ReferenceError: id is not defined	PATCH	/users/update/:id	undefined
+2024-06-26	13:24:50	2dcd5dc9-1841-49fd-82b9-8b9a01467579	ReferenceError: id is not defined	PATCH	/users/update	undefined
+2024-06-26	13:26:37	9d60b784-ad7c-4eed-ba55-6f768d452148	ObjectParameterError: Parameter "filter" to findOne() must be an object, got "qdqsdsqqs" (type string)	PATCH	/users/update	undefined
+2024-06-26	13:28:15	4de85058-f6f2-46ce-b3bb-7c4dc6e61e5e	TypeError: user.save is not a function	PATCH	/users/update	undefined
+2024-06-26	13:28:44	7e344f2f-9322-4d46-a2ad-41f367f5734d	TypeError: user.save is not a function	PATCH	/users/update	undefined
+2024-06-26	13:30:56	7d972a33-37c6-4c51-84b8-b3c64e5bf159	CastError: Cast to ObjectId failed for value "667bf90c2bd2a7a82909f05" (type string) at path "_id" for model "users"	PATCH	/users/update	undefined
+2024-06-26	16:14:45	48072889-02d1-4709-a84d-7187c7ea72b4	ReferenceError: red is not defined	DELETE	/users/delete	undefined
+2024-07-02	19:42:23	002d7612-4ad8-4256-a4e7-cf46979ce91f	CastError: Cast to ObjectId failed for value "667c25729c103c180z0bc736" (type string) at path "_id" for model "users"	POST	/notes/createNote	undefined
+2024-07-02	19:42:38	d1ce3001-93e3-44e0-be89-02d7bd90f4d4	CastError: Cast to ObjectId failed for value "667c25729c103c180v0bc736" (type string) at path "_id" for model "users"	POST	/notes/createNote	undefined
+2024-07-02	20:19:57	b15fd4e6-33a2-4a55-b80b-6e566e44c783	CastError: Cast to ObjectId failed for value "667c25729c103c180v0bc736" (type string) at path "_id" for model "users"	POST	/notes/createNote	undefined
+2024-07-03	22:09:10	bb5acf18-c4fc-4d84-b824-82aade227ce6	TypeError: Note.create(...).lean is not a function	POST	/notes/createNote	http://localhost:3000
+2024-07-03	22:10:15	f8bbd6ce-fd8e-4266-b656-dd0b18dd7ba7	TypeError: Note.create(...).lean is not a function	POST	/notes/createNote	http://localhost:3000
+2024-07-04	17:55:00	213c2659-1ab2-4f2f-8a9b-750380e0e759	TypeError: Note.create(...).lean is not a function	POST	/notes/createNote	undefined
+2024-07-04	18:01:13	3762b0dd-5b51-4bda-8b42-30343a87308f	TypeError: Cannot read properties of undefined (reading 'jwt')	POST	/auth/logout	undefined
+2024-07-04	18:10:01	9d2928a5-2ba8-4ea8-899a-d22ca3e11aa5	TypeError: Cannot read properties of undefined (reading 'jwt')	POST	/auth/logout	undefined
+2024-07-06	20:52:23	029c9719-7512-47d2-a901-b86bbeddf20d	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-07	09:25:43	acfecbec-5815-40f7-9291-cb651c6b8356	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-07	09:33:20	f5a0f882-49ca-419b-ba69-46f789ec4075	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-07	09:37:10	f09fa9d8-7833-423f-93c5-e6c6979fb02f	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-07	09:45:50	362e0439-22d4-4ae0-81e3-dc9d80d75a45	TypeError: Note.create(...).exec is not a function	POST	/notes/createNote	http://localhost:3000
+2024-07-08	18:00:46	4c02cd8c-71fc-4cca-ae3d-39591ffe0cdc	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-08	18:10:43	8322b682-351f-4166-9723-c40c48797311	TypeError: Cannot read properties of undefined (reading 'split')	POST	/users/createUser	http://localhost:3000
+2024-07-08	20:03:19	e604c01f-fbe2-463e-8f39-f25909017bb6	Error: Not allowed by CORS	OPTIONS	/auth/login	http://127.0.0.1:3000
+2024-07-08	20:19:00	01a69b3e-197e-4520-96cf-33d47ce35dcd	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:28:33	617b5d99-9617-46c5-a5fd-ac32a4d4ff6a	CastError: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "users"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:36:24	14afc3c8-62ad-4dd6-814a-323410f6ec79	CastError: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "users"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:40:27	08bb23e6-fd32-419a-9c32-8cd3a39b88fe	CastError: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "users"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:42:48	3ac14a7a-239a-4ea9-9f58-41f106c790a2	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "5" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:43:14	16258896-ad75-4fec-9219-cae485acf980	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:44:00	e509fda6-44e8-4164-8ef7-48a74aec8124	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "5" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:47:32	9a5dc6cc-c478-4953-8474-8f282c963da1	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "5" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:48:28	147bdf8c-6ff3-4544-b65f-104367cc340d	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-09	16:51:11	0615b41a-06f6-4132-af7c-525bb2c11c79	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "5" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	17:21:50	27ab8f5a-6ea8-4123-9a77-21cd92ac0a1d	CastError: Cast to ObjectId failed for value "5" (type number) at path "_id" for model "users"	POST	/notes/createNote	http://localhost:3000
+2024-07-09	18:06:01	80a9fb4b-2a83-4411-9b5c-060a1f44ec96	TypeError: Cannot read properties of undefined (reading 'split')	POST	/notes/createNote	http://localhost:3000
+2024-07-09	18:59:14	27ffc654-5618-4564-babf-ac2c02d4f91e	TypeError: Cannot read properties of undefined (reading 'split')	POST	/users/createUser	http://localhost:3000
+2024-07-11	15:44:37	37c67386-fbd6-4105-a033-d23f42aa0598	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "6" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-11	15:47:48	009d3a4c-fd58-4624-92f3-610e8102b580	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "6" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-12	11:59:04	10edec3d-f9ca-4381-b526-43cc5258cbab	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "6" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-12	20:55:01	256b2965-d3aa-46f2-90c6-c29b375a8ec7	ValidationError: notes validation failed: user: Cast to ObjectId failed for value "7" (type number) at path "user" because of "BSONError"	POST	/notes/createNote	http://localhost:3000
+2024-07-16	17:50:45	40100a86-9325-42ac-b8e9-cfb7513b9b6c	TypeError: Cannot read properties of undefined (reading 'name')	PATCH	/notes/updateNote	undefined
+2024-07-16	18:07:47	e5a09fc4-43d7-43bd-8c30-b5b63af97079	TypeError: Cannot read properties of undefined (reading 'origin')	PATCH	/notes/updateNote	undefined
+2024-07-16	18:11:06	71f591bf-7d00-43d1-83b3-5481b2a5acc3	Url not Found undefined /notes/updateNote PATCH
+2024-07-16	18:11:06	f9a58690-6233-4a1a-8e68-f816556aef3d	TypeError: res.status is not a function	PATCH	/notes/updateNote	undefined
+2024-07-16	18:17:56	4adedc9b-7211-4ca6-b4be-8f46e4e929c1	Url not Found undefined /notes/updateNote PATCH
+2024-07-16	18:17:56	8804440d-7337-4387-ab46-a2a9f9a2d0ee	TypeError: res.status is not a function	PATCH	/notes/updateNote	undefined
+2024-07-16	18:27:41	cc029ff2-0320-4416-8d4b-5fea6b1854de	Url not Found undefined /notes/updateNote PATCH
+2024-07-16	18:27:41	bcc11168-703d-4d48-bdd0-6053cb38282d	TypeError: res.status is not a function	PATCH	/notes/updateNote	undefined
+2024-07-16	18:59:37	a8b7b7fd-5bfe-4c11-93a6-548b9398ec02	Url not Found undefined /notes/updateNote PATCH
+2024-07-16	18:59:37	f5c3e63c-1c92-46f6-ac3e-6fbec049c8c4	TypeError: res.status is not a function	PATCH	/notes/updateNote	undefined
+2024-07-16	19:01:09	30038d4d-2260-4d0d-92be-72832257d70f	Url not Found undefined /notes/updateNote PATCH
+2024-07-16	19:01:09	bc414f2d-66d8-4b5f-bd0b-0b4ce1fed8d1	ReferenceError: err is not defined	PATCH	/notes/updateNote	undefined
+2024-07-16	19:01:32	ed4665e5-2d9b-409b-9b8e-e10960465ddc	Url not Found undefined /notes/updateNote PATCH
+2024-07-16	19:01:32	2e8fc1a9-8b1a-4183-8fb5-ba2d04a54c68	ReferenceError: err is not defined	PATCH	/notes/updateNote	undefined
+2024-07-16	19:02:07	7b3f61f3-74dc-4e3c-831b-24e414b3f022	Url not Found undefined undefined undefined
+2024-07-16	19:02:07	60b70ad8-8cda-4005-bdcf-5c8b54192e01	TypeError: res.sendFile is not a function	PATCH	/notes/updateNote	undefined
+2024-11-17	19:38:13	67f5ede5-a3cd-45e5-ac6c-4b7372a30035	Url not Found undefined undefined undefined
+2024-11-17	19:38:13	3930e35b-f576-421a-aa90-a6f7f7f4a3c0	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	19:38:13	66b3669e-cdc0-4a74-ab31-e6704b9a4910	Url not Found undefined undefined undefined
+2024-11-17	19:38:13	6a9ba060-6422-400e-9b56-244211ca5078	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	19:41:14	9f6dbc1e-005e-4fbc-a9f8-b9d9a3606d60	Url not Found undefined undefined undefined
+2024-11-17	19:41:14	6cd5e350-d8e0-432f-9cd5-428f6a99bb8b	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	19:41:14	d98f888c-1de2-4087-a772-2f89e47c4cf8	Url not Found undefined undefined undefined
+2024-11-17	19:41:14	3b5bd31c-14e2-4190-b58d-5965b7ba65f2	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	20:00:35	6562e3e1-ba23-4862-8b0a-165bac3a6be3	Url not Found undefined undefined undefined
+2024-11-17	20:00:35	5bcc7f05-6e40-4c39-8c79-d6d8b94e5ebb	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	20:00:35	719bcf49-2fbd-4fce-a9b1-30d1298fb059	Url not Found undefined undefined undefined
+2024-11-17	20:00:35	d894846d-5760-4702-8dc0-2a3fd9a624f1	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	20:22:16	d4d325ba-78fa-43ed-afa5-d28ca71b733b	Url not Found undefined undefined undefined
+2024-11-17	20:22:16	c9b578f8-43bf-4691-aade-ae2ea82edee8	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	20:22:16	9ff65240-c231-410d-b9c3-2e4c8afa5e08	Url not Found undefined undefined undefined
+2024-11-17	20:22:16	537bb515-53f6-47cb-905b-a9640766cda5	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	20:26:43	63141c7e-cf10-4ac6-9179-b711f770e60c	TypeError: res.sendFile is not a function	POST	/register	http://localhost:3000
+2024-11-17	20:26:43	9227e7b3-3bb4-4058-922d-0e3fa2f2c6c7	Url not Found undefined undefined undefined
+2024-11-17	20:29:56	f485a23b-0000-4b4a-8bd0-f059202dc999	Url not Found undefined undefined undefined
+2024-11-17	20:29:56	d199fa00-200d-4437-a90e-70f490db2b5c	TypeError: res.sendFile is not a function	POST	/auth	http://localhost:3000
+2024-11-17	20:29:56	c2c19678-27df-497a-9c51-4d06bb0414fb	Url not Found undefined undefined undefined
+2024-11-17	20:29:56	bde2c795-d7b7-400a-87d8-05f879ec538d	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-17	20:29:56	cbb2e973-4389-4398-97ed-fe29487847c5	Url not Found undefined undefined undefined
+2024-11-17	20:29:56	dfc6691f-65ca-499f-b12d-a5c035a40322	TypeError: res.sendFile is not a function	GET	/refresh	http://localhost:3000
+2024-11-18	11:19:50	7138d035-894f-4f6d-8be2-95f60df01426	Url not Found undefined undefined undefined
+2024-11-18	11:19:50	173c7bef-8e71-41d4-9988-7cf56f5fbdf7	TypeError: res.sendFile is not a function	GET	/auth/register	undefined
+2024-11-18	11:20:05	fd2534f3-c049-4405-a768-7470a6009c42	ValidationError: users validation failed: pwd: Path `pwd` is required., user: Path `user` is required.	POST	/auth/register	undefined
+2024-11-18	11:21:28	3bff3a68-6c0c-463b-b318-65b9c8c1b262	ValidationError: users validation failed: pwd: Path `pwd` is required., user: Path `user` is required.	POST	/auth/register	undefined
+2024-11-18	11:21:55	25422a41-3cf0-4ba9-9e51-d2fe9a4f2bd2	ValidationError: users validation failed: pwd: Path `pwd` is required., user: Path `user` is required.	POST	/auth/register	undefined
+2024-11-18	11:46:46	59bda4e5-5913-4ea9-b0be-7ac577594bd9	ReferenceError: password is not defined	POST	/auth/register	http://localhost:3000
+2024-11-18	11:48:51	d207ddae-f163-42dc-a3fd-7e240a934e6b	Url not Found undefined undefined undefined
+2024-11-18	11:48:51	c7ada23a-f6f6-449b-85c3-06c673198e3d	TypeError: res.sendFile is not a function	POST	/auth/auth	http://localhost:3000
+2024-11-18	12:12:03	02eccddf-ee61-4877-84f0-55669d699328	Url not Found undefined undefined undefined
+2024-11-18	12:12:03	5e3542d7-49fe-46dd-97af-8e451dfb6514	TypeError: res.sendFile is not a function	POST	/auth/auth	http://localhost:3000
+2024-11-18	12:14:39	108d8173-a106-4320-94a2-161c43837d5c	Url not Found undefined undefined undefined
+2024-11-18	12:14:39	39c51a50-48a6-4061-b10e-6c7547b04ab0	TypeError: res.sendFile is not a function	POST	/auth/auth	http://localhost:3000
+2024-11-18	12:18:59	bdb7f415-afc0-4537-8d33-1c0026cb67a8	Url not Found undefined undefined undefined
+2024-11-18	12:18:59	f518ce82-9035-47f7-9ea0-d3dc853bc102	TypeError: res.sendFile is not a function	POST	/auth/auth	http://localhost:3000
+2024-11-18	12:21:30	084f3f8b-de1e-436e-9746-6a0f81240ddc	Url not Found undefined undefined undefined
+2024-11-18	12:21:30	265262a2-e4bb-454d-afe5-8b82d022b038	TypeError: res.sendFile is not a function	POST	/auth/auth	http://localhost:3000
+2024-11-18	12:25:38	3c52f9fe-d583-422b-b9a9-c5d33bd42c69	Url not Found undefined undefined undefined
+2024-11-18	12:25:38	f4237362-51ca-4786-996f-31b3b38e4efe	TypeError: res.sendFile is not a function	GET	/auth/users	http://localhost:3000
+2024-11-18	14:55:43	3ac03da5-9986-43f1-be3d-0cc2965ebff5	Url not Found undefined undefined undefined
+2024-11-18	14:55:43	a53afd2f-3824-496f-a507-cdb179b77af9	TypeError: res.sendFile is not a function	GET	/auth/users	http://localhost:3000
