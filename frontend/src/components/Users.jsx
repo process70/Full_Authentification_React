@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import useAxiosPrivate from "../hooks/useAxiosPrivate";
+import axios from "../api/axios";
 
 const Users = () => {
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState();
   const [error, seterror] = useState(null)
   const axiosPrivate = useAxiosPrivate()
 
@@ -11,12 +12,13 @@ const Users = () => {
     const controller = new AbortController()
     const getUsers = async() => {
         try {
-            const response = await axiosPrivate.get('/users', { signal: controller.signal })
+            const response = await axios.get('/users', { signal: controller.signal })
             // to prevent setting the users list when the component unmounts
             isMounted && setUsers(response?.data)
         } catch (err) {
             // to prevent displaying the error while the component unmounts
             isMounted && console.error('Error fetching users:', err);
+            isMounted && seterror(err)
         }
     }
     getUsers()
