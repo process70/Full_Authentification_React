@@ -6,8 +6,7 @@ import AuthContext from "../context/XYZ";
 const RequireAuth = ({ allowedRoles }) => {
     const {auth} = useAuth()
     const location = useLocation();
-    console.log('user roles: '+ auth?.roles)
-    console.log({allowedRoles})
+
     return (
         /* auth?.roles: the roles that the user have
         allowedRoles: the requested page that require these roles */
