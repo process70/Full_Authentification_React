@@ -3,8 +3,8 @@ import useAxiosPrivate from "../hooks/useAxiosPrivate";
 import axios from "../api/axios";
 
 const Users = () => {
-  const [users, setUsers] = useState();
-  const [error, seterror] = useState(null)
+  const [users, setUsers] = useState([]);
+  const [error, seterror] = useState('')
   const axiosPrivate = useAxiosPrivate()
 
   useEffect(() => {
