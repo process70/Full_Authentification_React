@@ -32,6 +32,12 @@ app.use(cookieParser())
 
 app.use('/auth', authRoutes)
 
+// Serve static files from the React/Vite app
+app.use(express.static(path.join(__dirname, '../frontend/build')));
+
+// Handle React routing, return all requests to React app
+app.get('*', (req, res) => { res.sendFile(path.join(__dirname, '../frontend/build/index.html'))});
+
 // handling a non-existing links or paths
 // res.status = 404
 app.all("*", (err, req, res) => {
