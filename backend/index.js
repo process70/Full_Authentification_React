@@ -24,7 +24,7 @@ app.use(express.urlencoded({extended: true}))
 //enable using cookies
 app.use(cookieParser())
 
-app.use(express.static(path.join(__dirname, "public")))
+// app.use(express.static(path.join(__dirname, "public")))
 // it's important to note ^/$ when adding multiple routes in a single http request
 // app.get("^/$|/index", (req, res) => {
 //   res.sendFile(path.join(__dirname, "public", "index.html"));
